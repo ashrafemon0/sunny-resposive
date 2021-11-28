@@ -1,0 +1,392 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Barlow', sans-serif;
+	font-size: 13px;
+	line-height: 23px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Fraunces', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header-top{
+	background-image: url(../images/image-header.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 500px;
+	background-size: cover;
+	background-position: center;
+	position: relative;	
+}
+.nav-menu{
+	padding: 20px 0px;
+}
+.nav-menu .logo{
+	max-width: 30%;
+	float: left;
+}
+.nav-menu .menu{
+	max-width: 70%;
+	float: right;
+}
+.nav-menu .menu ul{
+
+}
+.nav-menu .menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.nav-menu .menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 30px;
+	font-size: 15px;
+	list-style: 25px;
+	padding: 10px 15px;
+}
+.nav-menu .menu ul li a:hover{
+	background-color: #fff;
+	border-radius: 50px;
+	border:none;
+	color: #000;
+	transition: 2s;
+}
+.banner-text{
+	clear: both;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+}
+.banner-text h1{
+	font-size: 35px;
+	line-height: 45px;
+	color: #fff;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+.main-content{
+	
+}
+.content{
+	height: 476px;
+}
+.white-box{
+	width: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 122px 0px;
+	background-color: #ddd;
+
+}
+.white-text{
+	width: 57%;
+	margin: 0px auto;
+}
+.white-box h1{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+}
+.white-box p{
+	margin: 30px 0px;
+	color: hsl(210, 4%, 67%);
+}
+.white-box a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+
+}
+.yellow-img{
+	width: 50%;
+	float: left;
+}
+.yellow-img img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+/*====Content Two section Or Glass====*/
+
+
+.content2{
+	height: 476px;
+}
+.content2 .white-box{
+	width: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 142px 0px;
+	background-image: url(../images/image-graphic-design.jpg);
+
+
+}
+.content2 .white-text{
+	width: 57%;
+	margin: 0px auto;
+}
+.content2 .white-box h1{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+}
+.content2 .white-box p{
+	margin: 30px 0px;
+	color: hsl(210, 4%, 67%);
+	text-align: center;
+}
+.content2 .white-box a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+
+}
+.content2 .yellow-img{
+	width: 50%;
+	float: left;
+
+}
+.content2 .image{
+	width: 50%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 142px 0px;
+	background-image: url(../images/image-photography.jpg);
+
+
+}
+.content2 .yellow-img img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.clint-area{
+	width: 100%;
+	padding: 80px 0px;
+}
+.clint-area h2{
+	text-align: center;
+	font-size: 20px;
+	color: hsl(213, 9%, 39%);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.clint-area .clint{
+	text-align: center;
+	padding: 30px 0px;
+}
+.clint-area .clint .clint-box{
+	width: 33%;
+	float: left;
+	margin-right: 0px;
+	box-sizing: border-box;
+}
+.clint-area .clint .clint-box img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+}
+.clint-area .clint .clint-box p{
+	color:  hsl(232, 10%, 55%);
+	padding: 30px 0px;
+}
+.clint-area .clint .clint-box h4{
+
+}
+.clint-area .clint .clint-box span{
+	color: hsl(232, 10%, 55%);
+}
+.gallary-area{
+	width: 100%;
+	padding: 80px 0px;
+	clear: both;
+}
+.gallary-box{
+	width: 25%;
+	float: left;
+}
+.gallary-box img{
+	width: 100%;
+	height: auto;
+}
+.footer-area{
+	width: 100%;
+	padding: 40px 0px;
+	background-color: hsl(168, 34%, 41%);
+	clear: both;
+}
+.footer{
+	text-align: center;
+}
+.footer img{
+	width: 150px;
+}
+.footer ul{
+	margin: 20px 0px;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer ul li a{
+	text-decoration: none;
+	margin-right: 25px;
+	color: hsl(198, 62%, 26%);
+	font-size: 15px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .white-box{
+	width: 100%;
+
+}
+.white-box h1{
+font-size: 50px;
+font-weight: 700;
+padding-right: 233px;
+line-height: 60px;
+text-align: center;
+padding: 0px;
+}
+.white-box p{
+	margin: 30px 0px;
+	color: hsl(210, 4%, 67%);
+	text-align: center;
+	padding: 0px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.white-box a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+	padding: 0px;
+
+}
+.yellow-img{
+	width: 100%;
+}
+.clint-area .clint .clint-box{
+	width: 100%;
+
+}
+.gallary-box{
+	width: 50%;
+}
+.content2 .white-box{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 142px 0px;
+	background-image: url(../images/image-graphic-design.jpg);
+	background-repeat: no-repeat;
+
+}
+.content2 .image{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 142px 0px;
+	background-image: url(../images/image-photography.jpg);
+
+
+}
+.header-top{
+	background-image: url(../images/image-header.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 500px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	width: 100%;	
+}
+
+  
+}
